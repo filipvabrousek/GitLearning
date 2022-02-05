@@ -39,9 +39,11 @@ git log
 
 
 
+
 # Push to GitHub.com
 * new token for each repository
 * do these commands inside a folder
+
 ```
 git init
 git remote add origin https://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@github.com/RunnyApp/BREP
@@ -51,3 +53,12 @@ git commit -m "first commit"
 git branch -M main
 git push -u origin main
 ```
+
+# Pulling
+* add a file in GitHub GUI
+
+```
+git pull
+```
+
+

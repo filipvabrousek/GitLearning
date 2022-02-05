@@ -67,3 +67,9 @@ git add .
 git commit -m "Added AAA"  
 git push -u origin main  
 ```
+
+## Revert
+* reverts latest commit
+```
+git revert head --no-edit
+```

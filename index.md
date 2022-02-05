@@ -73,3 +73,10 @@ git push -u origin main
 ```
 git revert head --no-edit
 ```
+
+## Reset
+
+```
+git log --oneline 
+git reset b770289
+```

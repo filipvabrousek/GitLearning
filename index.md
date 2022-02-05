@@ -90,6 +90,12 @@ git commit --amend -m "Added Twice"
 ```
 
 
+## Tips
+
+```
+git commit -m "Title" -m "Description"
+git clone
+```
 
 
 

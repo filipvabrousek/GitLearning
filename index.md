@@ -70,13 +70,28 @@ git push -u origin main
 
 ## Revert
 * reverts latest commit
+* doesn't alter history
+
 ```
 git revert head --no-edit
 ```
 
-## Reset
 
+## Reset
+* alters history
 ```
 git log --oneline 
 git reset b770289
 ```
+
+## Ammend
+```
+git commit --amend -m "Added Twice" 
+```
+
+
+
+
+
+
+

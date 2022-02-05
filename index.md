@@ -1,4 +1,4 @@
-## Git
+# Git
 
 ```sh
 git config --global user.name "filipvabrousek"
@@ -32,7 +32,22 @@ git checkout master
 git merge functions
 ```
 
-
+## Show changes
 ```
 git log
+```
+
+
+
+# Push to GitHub.com
+* new token for each repository
+* do these commands inside a folder
+```
+git init
+git remote add origin https://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@github.com/RunnyApp/BREP
+touch a.txt
+git add a.txt
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
 ```

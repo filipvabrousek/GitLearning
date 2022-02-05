@@ -61,4 +61,9 @@ git push -u origin main
 git pull
 ```
 
-
+## Edit file on disk
+```
+git add . 
+git commit -m "Added AAA"  
+git push -u origin main  
+```

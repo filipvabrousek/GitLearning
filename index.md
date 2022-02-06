@@ -95,9 +95,60 @@ git commit --amend -m "Added Twice"
 ```
 git commit -m "Title" -m "Description"
 git clone
+git reset HEAD~3 // Undo 3 commits
 ```
 
 
 
+## Force changes
+add a new file in local folder 
+```
+git push -f  origin main  
+```
+
+## Add new file in Web gui
+```
+git pull origin
+```
+
+
+
+
+
+
+
+
+## Stash
+https://stackoverflow.com/questions/20537223/what-is-the-intended-use-case-for-git-stash
+
+```
+
+
+add file in folder (macOS)
+git add .
+git stash
+
+//  Other work
+
+git stash apply
+git commit -m “k”
+git push
+```
+
+
+
+## Branch sample
+
+```
+git branch Other
+git checkout Other
+
+touch onlyIn.txt
+git add .
+git commit -m "Only in other"
+
+git checkout Main
+// File wont be here
+```
 
 

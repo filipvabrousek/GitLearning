@@ -152,3 +152,8 @@ git checkout Main
 ```
 
 
+## Git clone
+```sh
+git clone www.a.com
+git pull // when repo changes
+```

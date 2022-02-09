@@ -11,4 +11,9 @@ git log # to see changes
 git mv file.txt folder
 ```
 
+## Rename
+```sh
+git mv s.txt d.txt
+```
+
 

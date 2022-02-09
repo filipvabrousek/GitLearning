@@ -2,6 +2,6 @@
 
 ```sh
 git clone url
-git pull // if anything changes
-git log // to see changes
+git pull # if anything changes
+git log # to see changes
 ```
